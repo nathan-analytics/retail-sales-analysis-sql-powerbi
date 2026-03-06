@@ -9,13 +9,13 @@ Dashboard Preview
 
 Tools Used
 
--PostgreSQL
+- PostgreSQL
 
--SQL
+- SQL
 
--Power BI
+- Power BI
 
--Python (pandas for data loading)
+- Python (pandas for data loading)
 
 Dataset
 
@@ -23,57 +23,57 @@ Online Retail dataset containing approximately 540,000 transactions from a UK-ba
 
 Key columns include:
 
--InvoiceNo
+- InvoiceNo
 
--StockCode
+- StockCode
 
--Description
+- Description
 
--Quantity
+- Quantity
 
--UnitPrice
+- UnitPrice
 
--CustomerID
+- CustomerID
 
--Country
+- Country
 
 Data Cleaning Steps
 
--The raw dataset required several cleaning steps before analysis:
+- The raw dataset required several cleaning steps before analysis:
 
--Removed cancelled orders (InvoiceNo starting with "C")
+- Removed cancelled orders (InvoiceNo starting with "C")
 
--Removed negative quantities and prices
+- Removed negative quantities and prices
 
--Created a line_revenue column (quantity * unitprice)
+- Created a line_revenue column (quantity * unitprice)
 
--Created a cleaned analytical table for reporting
+- Created a cleaned analytical table for reporting
 
 SQL Analysis
 
 SQL views were created to power dashboard reporting, including:
 
--Revenue KPIs
+- Revenue KPIs
 
--Monthly revenue trends
+- Monthly revenue trends
 
--Revenue by country
+- Revenue by country
 
--Top products by revenue
+- Top products by revenue
 
--Top customers by revenue
+- Top customers by revenue
 
 Key Insights
 
--Total revenue in the dataset is approximately £10.6M
+- Total revenue in the dataset is approximately £10.6M
 
--The dataset contains 19,960 completed orders
+- The dataset contains 19,960 completed orders
 
--There are 4,371 unique customers
+- There are 4,371 unique customers
 
--3,059 customers placed multiple orders, showing strong repeat purchasing behavior
+- 3,059 customers placed multiple orders, showing strong repeat purchasing behavior
 
--The United Kingdom accounts for the majority of sales
+- The United Kingdom accounts for the majority of sales
 
 Project Structure
 01_data_raw        Raw dataset
