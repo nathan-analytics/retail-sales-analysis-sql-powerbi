@@ -77,9 +77,9 @@ SQL views were created to power dashboard reporting, including:
 - The United Kingdom accounts for the majority of sales
 
 ## Project Structure
-- 01_data_raw        Raw dataset
-- 02_sql             SQL scripts for cleaning and analysis
-- 03_powerbi         Power BI dashboard
-- 04_screenshots     Dashboard images
-- README.md          Project documentation
-- project_notes.md   Analysis notes and workflow
+- 01_data_raw    -    Raw dataset
+- 02_sql          -   SQL scripts for cleaning and analysis
+- 03_powerbi      -   Power BI dashboard
+- 04_screenshots   -  Dashboard images
+- README.md       -   Project documentation
+- project_notes.md  - Analysis notes and workflow
