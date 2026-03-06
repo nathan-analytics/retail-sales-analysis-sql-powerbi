@@ -8,7 +8,13 @@ Dashboard Preview
 
 ## Project Overview
 
-This project analyzes an online retail dataset using SQL and Power BI to identify sales trends, top-performing products, and high-value customers. The goal is to simulate a real-world analytics workflow from raw data ingestion through dashboard reporting.
+## Project Overview
+
+This project analyzes an online retail dataset containing approximately 540,000 transactions from a UK-based e-commerce retailer. The goal was to simulate a real-world analytics workflow by cleaning raw transaction data in SQL and building an interactive Power BI dashboard to explore sales trends, top-performing products, and customer purchasing behavior.
+
+The analysis involved creating a staging table, cleaning transactional data, building analytical SQL views, and visualizing key metrics such as total revenue, monthly sales trends, top products, and high-value customers.
+
+The final dashboard highlights patterns in revenue distribution, product performance, and repeat customer behavior, providing insights that could support marketing and product strategy decisions.
 
 ## Business Questions
 
