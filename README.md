@@ -4,7 +4,7 @@ SQL + Power BI analysis of an e-commerce dataset (~540K transactions).
 
 Dashboard Preview
 
-<img width="1416" height="794" alt="executive_overview&#39;" src="https://github.com/user-attachments/assets/4e3fa5d0-d4c9-40ef-8fd3-a1f8d4e3130f" />
+<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/fff3102d-4b2a-415e-b114-6298b49d6372" />
 
 ## Project Overview
 
