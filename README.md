@@ -1,86 +1,105 @@
-# Online Retail Sales Analysis  
-SQL + Power BI  
+# Online Retail Sales Analysis
 
-Analyzed ~540K e-commerce transactions to uncover revenue drivers, product performance, and customer behavior.
+Analyzed ~540K e-commerce transactions using SQL and Power BI to identify revenue drivers, product performance, and customer behavior.
 
----
+## Project Summary
 
-## Dashboard Preview  
-<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/22206312-5a79-4efc-8a70-64a792fad169" />
+Explored transaction-level retail data to understand what drives revenue and how customers behave.
 
----
+Key findings:
+- Generated ~£10.6M in total revenue across ~19,960 orders
+- Revenue is highly concentrated among a small number of top-performing products
+- Strong repeat customer behavior (~3,059 repeat customers)
+- The United Kingdom accounts for the majority of total sales
 
-## 📄 Case Study  
-[Online Retail Sales Analysis.pdf](https://github.com/user-attachments/files/26418107/Online.Retail.Sales.Analysis.pdf)
+Business impact:
+- Highlights opportunity to focus on high-performing products to maximize revenue
+- Reinforces the importance of customer retention strategies
+- Identifies geographic concentration risk in sales distribution
+- Supports better product and market prioritization decisions
 
+## Dashboard Preview
 
+![Executive Overview](https://github.com/user-attachments/assets/22206312-5a79-4efc-8a70-64a792fad169)
 
----
+## Case Study
 
-## Key Insights  
-• Generated ~£10.6M in total revenue  
-• Revenue is highly concentrated among a small number of products  
-• Strong repeat customer behavior (~3,059 repeat customers)  
-• The United Kingdom accounts for the majority of total sales  
+[Online Retail Sales Analysis Case Study](case_study.pdf)
 
----
+## Key Insights
 
-## Business Questions  
-• Which countries generate the most revenue?  
-• Which products drive the most sales?  
-• What percentage of customers are repeat buyers?  
-• How does revenue change over time?  
+- A small number of products drive a large share of total revenue
+- Repeat customers contribute significantly to overall sales
+- Revenue is heavily concentrated in a single geographic market (UK)
+- Sales trends show consistent purchasing activity over time
 
----
+## Project Overview
 
-## Project Overview  
-This project analyzes an online retail dataset containing approximately 540,000 transactions from a UK-based e-commerce retailer.
+This project simulates a real-world sales analysis workflow using transactional data from an e-commerce retailer.
 
-The workflow simulates a real-world analytics process:
-• Cleaned and validated raw transactional data using SQL  
-• Built analytical views for reporting and aggregation  
-• Developed an interactive Power BI dashboard to explore trends and performance  
+Workflow:
+- Cleaned and validated raw data using SQL
+- Created derived metrics and structured analytical tables
+- Built SQL views for reporting and aggregation
+- Developed a Power BI dashboard to visualize performance and trends
 
-The final output highlights revenue distribution, product performance, and customer behavior to support business decision-making.
+## Data Cleaning
 
----
+- Removed cancelled orders (InvoiceNo starting with "C")
+- Filtered out negative quantities and unit prices
+- Created a revenue metric (quantity × unit price)
+- Built a cleaned dataset for analysis and reporting
 
-## Tools Used  
-SQL (PostgreSQL), Power BI, Python (Pandas)
+## SQL Analysis
 
----
+Created SQL views to support reporting and dashboard visuals:
+- Revenue KPIs
+- Monthly revenue trends
+- Revenue by country
+- Top products by revenue
+- Top customers by revenue
 
-## Dataset  
+## Dashboard Features
+
+- KPI overview (revenue, orders, customers)
+- Revenue trends over time
+- Geographic revenue distribution
+- Product performance analysis
+- Customer behavior insights (repeat vs new)
+
+## Business Recommendations
+
+- Focus on top-performing products to drive revenue growth
+- Invest in customer retention strategies to increase repeat purchases
+- Diversify geographic reach to reduce reliance on a single market
+- Monitor product performance to identify growth opportunities
+
+## Tools Used
+
+- SQL (PostgreSQL)
+- Power BI
+- Python (Pandas)
+
+## Dataset
+
 Online Retail dataset (~540K transactions)  
 Timeframe: December 2010 – December 2011  
 
 Key fields:
-InvoiceNo, StockCode, Description, Quantity, UnitPrice, CustomerID, Country  
+- InvoiceNo
+- StockCode
+- Description
+- Quantity
+- UnitPrice
+- CustomerID
+- Country
 
----
+## Project Structure
 
-## Data Cleaning  
-• Removed cancelled orders (InvoiceNo starting with "C")  
-• Filtered out negative quantities and prices  
-• Created revenue metric (quantity × unit price)  
-• Built a cleaned analytical table for reporting  
-
----
-
-## SQL Analysis  
-Created SQL views to support reporting and dashboard visuals:
-• Revenue KPIs  
-• Monthly revenue trends  
-• Revenue by country  
-• Top products by revenue  
-• Top customers by revenue  
-
----
-
-## Project Structure  
-01_data_raw/ – Raw dataset  
-02_sql/ – SQL scripts  
-03_powerbi/ – Dashboard file  
-04_screenshots/ – Dashboard images  
-case_study.pdf – Project summary  
-README.md – Documentation  
+online-retail-analysis/  
+├── 01_data_raw/  
+├── 02_sql/  
+├── 03_powerbi/  
+├── 04_screenshots/  
+├── case_study.pdf  
+└── README.md
