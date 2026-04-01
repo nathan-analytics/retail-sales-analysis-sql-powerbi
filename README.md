@@ -11,7 +11,8 @@ Analyzed ~540K e-commerce transactions to uncover revenue drivers, product perfo
 ---
 
 ## 📄 Case Study  
-[Online Retail Sales Analysis.PDF.pdf](https://github.com/user-attachments/files/26418097/Online.Retail.Sales.Analysis.PDF.pdf)
+[Online Retail Sales Analysis.pdf](https://github.com/user-attachments/files/26418107/Online.Retail.Sales.Analysis.pdf)
+
 
 
 ---
