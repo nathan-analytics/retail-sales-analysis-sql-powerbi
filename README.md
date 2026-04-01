@@ -1,77 +1,84 @@
-### Online Retail Sales Analysis
+# Online Retail Sales Analysis  
+SQL + Power BI  
 
-SQL + Power BI analysis of an e-commerce dataset (~540K transactions).
+Analyzed ~540K e-commerce transactions to uncover revenue drivers, product performance, and customer behavior.
 
-Dashboard Preview
+---
 
-<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/fff3102d-4b2a-415e-b114-6298b49d6372" />
+## Dashboard Preview  
+<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/22206312-5a79-4efc-8a70-64a792fad169" />
 
-## Project Overview
+---
 
-This project analyzes an online retail dataset containing approximately 540,000 transactions from a UK-based e-commerce retailer. The goal was to simulate a real-world analytics workflow by cleaning raw transaction data in SQL and building an interactive Power BI dashboard to explore sales trends, top-performing products, and customer purchasing behavior.
+## 📄 Case Study  
+[Project 1 PDF.pdf](https://github.com/user-attachments/files/26418072/Project.1.PDF.pdf)
 
-The analysis involved creating a staging table, cleaning transactional data, building analytical SQL views, and visualizing key metrics such as total revenue, monthly sales trends, top products, and high-value customers.
+---
 
-The final dashboard highlights patterns in revenue distribution, product performance, and repeat customer behavior, providing insights that could support marketing and product strategy decisions.
+## Key Insights  
+• Generated ~£10.6M in total revenue  
+• Revenue is highly concentrated among a small number of products  
+• Strong repeat customer behavior (~3,059 repeat customers)  
+• The United Kingdom accounts for the majority of total sales  
 
-## Business Questions
+---
 
-- Which countries generate the most revenue?
-- Which products drive the most sales?
-- What percentage of customers are repeat buyers?
-- How does revenue change over time?
+## Business Questions  
+• Which countries generate the most revenue?  
+• Which products drive the most sales?  
+• What percentage of customers are repeat buyers?  
+• How does revenue change over time?  
 
-## Tools Used
+---
 
-- PostgreSQL
-- SQL
-- Power BI
-- Python (pandas for data loading)
+## Project Overview  
+This project analyzes an online retail dataset containing approximately 540,000 transactions from a UK-based e-commerce retailer.
 
-## Dataset
+The workflow simulates a real-world analytics process:
+• Cleaned and validated raw transactional data using SQL  
+• Built analytical views for reporting and aggregation  
+• Developed an interactive Power BI dashboard to explore trends and performance  
 
-Online Retail dataset containing approximately 540,000 transactions from a UK-based e-commerce retailer between December 2010 and December 2011.
+The final output highlights revenue distribution, product performance, and customer behavior to support business decision-making.
 
-Key columns include:
+---
 
-- InvoiceNo
-- StockCode
-- Description
-- Quantity
-- UnitPrice
-- CustomerID
-- Country
+## Tools Used  
+SQL (PostgreSQL), Power BI, Python (Pandas)
 
-## Data Cleaning Steps
+---
 
-- The raw dataset required several cleaning steps before analysis:
-- Removed cancelled orders (InvoiceNo starting with "C")
-- Removed negative quantities and prices
-- Created a line_revenue column (quantity * unitprice)
-- Created a cleaned analytical table for reporting
+## Dataset  
+Online Retail dataset (~540K transactions)  
+Timeframe: December 2010 – December 2011  
 
-## SQL Analysis
+Key fields:
+InvoiceNo, StockCode, Description, Quantity, UnitPrice, CustomerID, Country  
 
-SQL views were created to power dashboard reporting, including:
+---
 
-- Revenue KPIs
-- Monthly revenue trends
-- Revenue by country
-- Top products by revenue
-- Top customers by revenue
+## Data Cleaning  
+• Removed cancelled orders (InvoiceNo starting with "C")  
+• Filtered out negative quantities and prices  
+• Created revenue metric (quantity × unit price)  
+• Built a cleaned analytical table for reporting  
 
-## Key Insights
+---
 
-- Total revenue in the dataset is approximately £10.6M
-- The dataset contains 19,960 completed orders
-- There are 4,371 unique customers
-- 3,059 customers placed multiple orders, showing strong repeat purchasing behavior
-- The United Kingdom accounts for the majority of sales
+## SQL Analysis  
+Created SQL views to support reporting and dashboard visuals:
+• Revenue KPIs  
+• Monthly revenue trends  
+• Revenue by country  
+• Top products by revenue  
+• Top customers by revenue  
 
-## Project Structure
-- 01_data_raw    -    Raw dataset
-- 02_sql          -   SQL scripts for cleaning and analysis
-- 03_powerbi      -   Power BI dashboard
-- 04_screenshots   -  Dashboard images
-- README.md       -   Project documentation
-- project_notes.md  - Analysis notes and workflow
+---
+
+## Project Structure  
+01_data_raw/ – Raw dataset  
+02_sql/ – SQL scripts  
+03_powerbi/ – Dashboard file  
+04_screenshots/ – Dashboard images  
+case_study.pdf – Project summary  
+README.md – Documentation  
