@@ -20,8 +20,7 @@ Business impact:
 
 ## Dashboard Highlight
 
-Several high-revenue products operate at a loss due to heavy discounting, 
-revealing that strong sales performance does not always translate to profitability.
+A small number of products generate a disproportionate share of total revenue, highlighting both an opportunity to double down on top performers and a risk from over-reliance on a limited product set.
 
 ![Executive Overview](https://github.com/user-attachments/assets/22206312-5a79-4efc-8a70-64a792fad169)
 
