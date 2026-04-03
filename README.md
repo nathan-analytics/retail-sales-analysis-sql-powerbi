@@ -26,7 +26,7 @@ A small number of products generate a disproportionate share of total revenue, h
 
 ## Case Study
 
-[Online Retail Sales Analysis Case Study](case_study.pdf)
+[Retail Sales Analysis Case Study.pdf](https://github.com/user-attachments/files/26452096/Retail.Sales.Analysis.Case.Study.pdf)
 
 ## Key Insights
 
