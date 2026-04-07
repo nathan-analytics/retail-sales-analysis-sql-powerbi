@@ -1,85 +1,71 @@
 # Retail Sales Analysis
 
-End-to-end analysis of e-commerce transactions to identify key revenue drivers, customer behavior, and product performance.
+End-to-end analysis of ~540,000 e-commerce transactions to identify revenue drivers, product performance, and customer behavior.
 
 ---
 
 ## Project Summary
 
-Analyzed ~540,000 e-commerce transactions using SQL and Power BI to uncover what drives revenue and customer purchasing behavior.
+Analyzed ~540K transactions using SQL and Power BI to determine what drives revenue and repeat purchasing.
 
-Cleaned and validated raw transactional data in PostgreSQL, removing cancelled orders and invalid values, and created a line-level revenue metric to enable accurate analysis.
+Cleaned and validated data in PostgreSQL by removing cancelled orders and invalid values, and engineered a line-level revenue metric.
 
-Built analytical SQL views and an interactive Power BI dashboard to track KPIs, trends, and customer insights.
+Built SQL views and a Power BI dashboard to track KPIs, product performance, and customer segments.
 
-Key findings showed that ~£10.6M in revenue is heavily concentrated among a small number of products, the UK dominates sales, and repeat customers drive a significant share of total revenue.
+Key findings:
+- ~£10.6M revenue is highly concentrated in a small number of products  
+- The UK dominates overall sales  
+- Repeat customers drive a significant share of total revenue  
 
-Key findings reveal how raw transactional data can be transformed into actionable insights to support revenue growth and retention strategies.
-
-These insights help prioritize high-performing products and improve customer retention strategies.
+This analysis identifies product focus and customer retention as the highest-impact levers for revenue growth.
 
 ---
 
 ## Dashboard Preview
 
-<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/d312ec53-11e3-4680-af72-65aee937033c" />
+### Executive Overview
+<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/d1f0ba4d-bfa4-4f9e-8624-d4e45a5dc837" />
 
-<img width="1317" height="739" alt="Product Performance" src="https://github.com/user-attachments/assets/79370aba-5e0b-4861-bffd-768da58058f0" />
 
-<img width="1316" height="742" alt="Customer Insights" src="https://github.com/user-attachments/assets/7a5125e8-3c85-4cde-b01a-eec46e4fa99b" />
+### Product Performance
+<img width="1317" height="739" alt="Product Performance" src="https://github.com/user-attachments/assets/128a3531-2c5f-489a-a542-3421ab0b7561" />
+
+
+### Customer Insights
+<img width="1316" height="742" alt="Customer Insights" src="https://github.com/user-attachments/assets/f999f2f2-e239-47d6-96c9-5a69bff75e16" />
 
 ---
 
-## Dashboard Highlights
+## Case Study
 
-### Executive Overview
-- Tracks total revenue (~£10.6M), total orders, and unique customers  
-- Highlights overall sales trends and seasonality  
-- Provides a high-level view of business performance  
-
-### Product Performance
-- Identifies top revenue-driving products  
-- Shows revenue concentration across product categories  
-- Highlights underperforming products for optimization  
-
-### Customer Insights
-- Breaks down repeat vs one-time customers  
-- Shows customer contribution to total revenue  
-- Highlights retention opportunities and purchasing behavior  
+[Online Retail Sales Analysis.pdf](https://github.com/user-attachments/files/26554262/Online.Retail.Sales.Analysis.pdf)
 
 ---
 
 ## Key Insights
 
-- A small number of products account for a disproportionate share of total revenue  
-- The UK generates the majority of overall sales volume  
-- ~3,000+ repeat customers drive a large portion of total revenue  
-- Sales show clear seasonal patterns and demand trends  
-- Revenue is heavily influenced by customer purchasing behavior  
+- Revenue is heavily concentrated among a small set of products  
+- The UK accounts for the majority of total sales  
+- Repeat customers are a primary driver of revenue  
+- Sales show clear seasonality  
 
 ---
 
 ## Business Impact
 
-- Prioritize high-performing products to maximize revenue growth  
-- Focus on retention strategies to increase repeat customer value  
-- Align inventory planning with demand patterns and seasonality  
-- Identify and optimize or remove underperforming products  
+- Focus on top-performing products to maximize revenue  
+- Improve retention to increase customer lifetime value  
+- Align inventory with demand patterns  
+- Reduce focus on low-performing products  
 
 ---
 
 ## Data Pipeline
 
-Raw Data (E-commerce Transactions CSV)  
-→ PostgreSQL (Data Cleaning and Transformation)  
-→ SQL (Analytical Views and KPI Calculations)  
-→ Power BI (Dashboard and Reporting)
-
----
-## Tech Stack
-
-- PostgreSQL (data cleaning, transformation, analytical queries)  
-- Power BI (dashboard development, KPI tracking, data visualization)  
+Raw CSV  
+→ PostgreSQL (cleaning & transformation)  
+→ SQL (analysis)  
+→ Power BI (dashboard)
 
 ---
 
@@ -97,6 +83,13 @@ online-retail-analysis/
 
 ---
 
+## Tech Stack
+
+- PostgreSQL  
+- Power BI  
+
+---
+
 ## What The Analysis Demonstrates
 
 - Ability to clean and validate large-scale transactional datasets (~500K+ records)  
@@ -106,14 +99,6 @@ online-retail-analysis/
 
 ---
 
-## Case Study
-
-For a deeper breakdown of the business problem, methodology, and recommendations:
-
-[Online Retail Sales Analysis.pdf](https://github.com/user-attachments/files/26551066/Online.Retail.Sales.Analysis.pdf)
-
----
-
 ## Key Takeaway
 
-Revenue is highly concentrated among a small number of products and repeat customers, making product focus and retention strategies the highest-impact levers for growth.
+Revenue growth is driven by a small group of products and repeat customers, making product prioritization and retention the most effective strategies.
