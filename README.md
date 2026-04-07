@@ -14,7 +14,9 @@ Built analytical SQL views and an interactive Power BI dashboard to track KPIs, 
 
 Key findings showed that ~£10.6M in revenue is heavily concentrated among a small number of products, the UK dominates sales, and repeat customers drive a significant share of total revenue.
 
-This project demonstrates how raw transactional data can be transformed into actionable insights to support revenue growth and retention strategies.
+Key findings reveal how raw transactional data can be transformed into actionable insights to support revenue growth and retention strategies.
+
+These insights help prioritize high-performing products and improve customer retention strategies.
 
 ---
 
@@ -87,7 +89,7 @@ online-retail-analysis/
 
 ---
 
-## What This Project Demonstrates
+## What The Analysis Demonstrates
 
 - Ability to clean and validate large-scale transactional datasets (~500K+ records)  
 - Strong SQL skills for transforming raw data into structured analytical views  
