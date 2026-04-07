@@ -68,6 +68,14 @@ These insights help prioritize high-performing products and improve customer ret
 
 ---
 
+## Data Pipeline
+
+Raw Data (E-commerce Transactions CSV)  
+→ PostgreSQL (Data Cleaning and Transformation)  
+→ SQL (Analytical Views and KPI Calculations)  
+→ Power BI (Dashboard and Reporting)
+
+---
 ## Tech Stack
 
 - PostgreSQL (data cleaning, transformation, analytical queries)  
