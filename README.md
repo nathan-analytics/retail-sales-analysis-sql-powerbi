@@ -1,103 +1,81 @@
-# Online Retail Sales Analysis
+# Retail Sales Analysis
 
-Analyzed ~540K e-commerce transactions using SQL and Power BI to identify revenue drivers, product performance, and customer behavior.
+End-to-end analysis of e-commerce transactions to identify key revenue drivers, customer behavior, and product performance.
+
+---
 
 ## Project Summary
 
-Explored transaction-level retail data to understand what drives revenue and how customers behave.
+Analyzed ~540,000 e-commerce transactions using SQL and Power BI to uncover what drives revenue and customer purchasing behavior.
 
-Key findings:
-- Generated ~£10.6M in total revenue across ~19,960 orders
-- Revenue is highly concentrated among a small number of top-performing products
-- Strong repeat customer behavior (~3,059 repeat customers)
-- The United Kingdom accounts for the majority of total sales
+Cleaned and validated raw transactional data in PostgreSQL, removing cancelled orders and invalid values, and created a line-level revenue metric to enable accurate analysis.
 
-Business impact:
-- Highlights opportunity to focus on high-performing products to maximize revenue
-- Reinforces the importance of customer retention strategies
-- Identifies geographic concentration risk in sales distribution
-- Supports better product and market prioritization decisions
+Built analytical SQL views and an interactive Power BI dashboard to track KPIs, trends, and customer insights.
 
-## Dashboard Highlight
+Key findings showed that ~£10.6M in revenue is heavily concentrated among a small number of products, the UK dominates sales, and repeat customers drive a significant share of total revenue.
 
-A small number of products generate a disproportionate share of total revenue, highlighting both an opportunity to double down on top performers and a risk from over-reliance on a limited product set.
+This project demonstrates how raw transactional data can be transformed into actionable insights to support revenue growth and retention strategies.
 
-![Executive Overview](https://github.com/user-attachments/assets/22206312-5a79-4efc-8a70-64a792fad169)
+---
 
-## Case Study
+## Dashboard Preview
 
-[Retail Sales Analysis Case Study.pdf](https://github.com/user-attachments/files/26452096/Retail.Sales.Analysis.Case.Study.pdf)
+<img width="1317" height="741" alt="Executive overview" src="https://github.com/user-attachments/assets/d312ec53-11e3-4680-af72-65aee937033c" />
+
+<img width="1317" height="739" alt="Product Performance" src="https://github.com/user-attachments/assets/79370aba-5e0b-4861-bffd-768da58058f0" />
+
+<img width="1316" height="742" alt="Customer Insights" src="https://github.com/user-attachments/assets/7a5125e8-3c85-4cde-b01a-eec46e4fa99b" />
+
+---
+
+## Dashboard Highlights
+
+### Executive Overview
+- Tracks total revenue (~£10.6M), total orders, and unique customers  
+- Highlights overall sales trends and seasonality  
+- Provides a high-level view of business performance  
+
+### Product Performance
+- Identifies top revenue-driving products  
+- Shows revenue concentration across product categories  
+- Highlights underperforming products for optimization  
+
+### Customer Insights
+- Breaks down repeat vs one-time customers  
+- Shows customer contribution to total revenue  
+- Highlights retention opportunities and purchasing behavior  
+
+---
 
 ## Key Insights
 
-- A small number of products drive a large share of total revenue
-- Repeat customers contribute significantly to overall sales
-- Revenue is heavily concentrated in a single geographic market (UK)
-- Sales trends show consistent purchasing activity over time
+- A small number of products account for a disproportionate share of total revenue  
+- The UK generates the majority of overall sales volume  
+- ~3,000+ repeat customers drive a large portion of total revenue  
+- Sales show clear seasonal patterns and demand trends  
+- Revenue is heavily influenced by customer purchasing behavior  
 
-## Project Overview
+---
 
-This project simulates a real-world sales analysis workflow using transactional data from an e-commerce retailer.
+## Business Impact
 
-Workflow:
-- Cleaned and validated raw data using SQL
-- Created derived metrics and structured analytical tables
-- Built SQL views for reporting and aggregation
-- Developed a Power BI dashboard to visualize performance and trends
+- Prioritize high-performing products to maximize revenue growth  
+- Focus on retention strategies to increase repeat customer value  
+- Align inventory planning with demand patterns and seasonality  
+- Identify and optimize or remove underperforming products  
 
-## Data Cleaning
+---
 
-- Removed cancelled orders (InvoiceNo starting with "C")
-- Filtered out negative quantities and unit prices
-- Created a revenue metric (quantity × unit price)
-- Built a cleaned dataset for analysis and reporting
+## Tech Stack
 
-## SQL Analysis
+- PostgreSQL (data cleaning, transformation, analytical queries)  
+- Power BI (dashboard development, KPI tracking, data visualization)  
 
-Created SQL views to support reporting and dashboard visuals:
-- Revenue KPIs
-- Monthly revenue trends
-- Revenue by country
-- Top products by revenue
-- Top customers by revenue
-
-## Dashboard Features
-
-- KPI overview (revenue, orders, customers)
-- Revenue trends over time
-- Geographic revenue distribution
-- Product performance analysis
-- Customer behavior insights (repeat vs new)
-
-## Business Recommendations
-
-- Focus on top-performing products to drive revenue growth
-- Invest in customer retention strategies to increase repeat purchases
-- Diversify geographic reach to reduce reliance on a single market
-- Monitor product performance to identify growth opportunities
-
-## Tools Used
-
-- SQL (PostgreSQL)
-- Power BI
-- Python (Pandas)
-
-## Dataset
-
-Online Retail dataset (~540K transactions)  
-Timeframe: December 2010 – December 2011  
-
-Key fields:
-- InvoiceNo
-- StockCode
-- Description
-- Quantity
-- UnitPrice
-- CustomerID
-- Country
+---
 
 ## Project Structure
 
+```
 online-retail-analysis/  
 ├── 01_data_raw/  
 ├── 02_sql/  
@@ -105,3 +83,27 @@ online-retail-analysis/
 ├── 04_screenshots/  
 ├── case_study.pdf  
 └── README.md
+```
+
+---
+
+## What This Project Demonstrates
+
+- Ability to clean and validate large-scale transactional datasets (~500K+ records)  
+- Strong SQL skills for transforming raw data into structured analytical views  
+- Experience building KPI-driven dashboards for business decision-making  
+- Translating complex data into clear, actionable business insights  
+
+---
+
+## Case Study
+
+For a deeper breakdown of the business problem, methodology, and recommendations:
+
+[Online Retail Sales Analysis.pdf](https://github.com/user-attachments/files/26551066/Online.Retail.Sales.Analysis.pdf)
+
+---
+
+## Key Takeaway
+
+Revenue is highly concentrated among a small number of products and repeat customers, making product focus and retention strategies the highest-impact levers for growth.
