@@ -68,6 +68,14 @@ Raw CSV
 → Power BI (dashboard)
 
 ---
+## SQL Work
+
+- Cleaned transactional data (removed cancellations, invalid values)
+- Created revenue metrics (line_revenue = quantity × price)
+- Built analytical views for product and customer performance
+- Aggregated KPIs including revenue, orders, and repeat customers
+
+---
 
 ## Project Structure
 
