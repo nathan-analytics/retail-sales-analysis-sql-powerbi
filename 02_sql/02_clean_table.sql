@@ -1,6 +1,3 @@
--- Step 1: Create cleaned sales table
--- Purpose: standardize column names and calculate revenue
-
 DROP TABLE IF EXISTS clean_sales;
 
 CREATE TABLE clean_sales AS
@@ -15,4 +12,7 @@ SELECT
     "Country"     AS country,
     ("Quantity" * "UnitPrice") AS line_revenue
 FROM stg_online_retail
-WHERE "UnitPrice" > 0;
+WHERE "UnitPrice" > 0
+  AND "Quantity" > 0
+  AND "InvoiceNo" NOT LIKE 'C%'        -- remove cancelled orders
+  AND "Description" NOT ILIKE '%POSTAGE%';  -- remove non-product items
