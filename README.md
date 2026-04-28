@@ -13,7 +13,7 @@ Cleaned and validated data in PostgreSQL by removing cancelled orders and invali
 Built SQL views and a Power BI dashboard to track KPIs, product performance, and customer segments.
 
 Key findings:
-- ~£10.6M revenue is highly concentrated in a small number of products  
+- ~$10.6M revenue is highly concentrated in a small number of products  
 - The UK dominates overall sales  
 - Repeat customers drive a significant share of total revenue  
 
